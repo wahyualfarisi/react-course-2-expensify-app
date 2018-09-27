@@ -20,6 +20,8 @@ const expenseDefault = [];
                return expense
            }
         })
+        case 'SET_EXPENSE':
+        return action.expense
 
         default:
         return state;
